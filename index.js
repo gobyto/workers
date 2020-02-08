@@ -18,7 +18,7 @@ var html = `
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
   <title>${authConfig.siteName}</title>
-  <script src="//raw.githubusercontent.com/gobyto/appjs/master/themes/${authConfig.theme}/goindex%40${authConfig.version}/app.js"></script>
+  <script src="//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/gobyto/appjs/themes/${authConfig.theme}/goindex%40${authConfig.version}/app.js"></script>
 </head>
 <body>
 </body>
